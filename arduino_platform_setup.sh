@@ -83,6 +83,16 @@ echo
 sudo -u arduino /home/arduino/bin/arduino-cli compile -b arduino:avr:uno /home/arduino/arduino/sketches/blink/blink.ino
 
 echo
+echo 'Installing pip3'
+echo
+apt install python3-pip -y
+
+echo
+echo 'Installing pyserial for serial monitor script'
+echo
+/usr/bin/pip3 install pyserial
+
+echo
 echo 'Rebooting in 3 seconds...'
 echo
 sleep 3
