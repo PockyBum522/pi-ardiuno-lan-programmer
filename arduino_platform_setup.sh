@@ -9,7 +9,7 @@ apt-get upgrade -y
 echo
 echo 'Now installing arduino-cli'
 echo
-sudo -u arduino curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo -u arduino sh
 
 echo
 echo 'Now adding /home/arduino/bin to PATH'
