@@ -86,4 +86,6 @@ echo
 echo 'Rebooting in 3 seconds...'
 echo
 sleep 3
+echo
+echo 'System is rebooting NOW!'
 reboot
